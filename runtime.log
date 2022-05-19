@@ -1,0 +1,38 @@
+2022-05-20 05:36:10.451 | DEBUG    | services.deploy:job_loop_claim:184 - SynergyTunnel Pattern: True
+2022-05-20 05:36:10.452 | DEBUG    | services.utils.toolbox.toolbox:get_challenge_ctx:334 - >> ACTIVATE [__Context__] 🎮 激活挑战者上下文
+2022-05-20 05:36:21.488 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1325 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-05-20 05:36:25.597 | DEBUG    | services.bricklayer.core:login:1029 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-05-20 05:36:25.897 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:107 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-05-20 05:36:28.869 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取挑战标签 - label=「boat」
+2022-05-20 05:36:29.305 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 开始挑战
+2022-05-20 05:36:30.344 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 提交挑战 yolov5n6(onnx)_model: 0.74s
+2022-05-20 05:36:32.365 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-05-20 05:36:33.407 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取挑战标签 - label=「boat」
+2022-05-20 05:36:33.763 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 开始挑战
+2022-05-20 05:36:34.636 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 提交挑战 yolov5n6(onnx)_model: 0.45s
+2022-05-20 05:36:41.005 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-05-20 05:36:41.340 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1264 - >> LOAD [CookieManager] Load context cookie.
+2022-05-20 05:36:41.440 | DEBUG    | services.deploy:promotions_splitter:374 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Borderlands 3』
+2022-05-20 05:36:41.521 | DEBUG    | services.bricklayer.game:cart_balancing:171 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-05-20 05:36:45.280 | DEBUG    | services.bricklayer.game:cart_balancing:185 - >> COMBAT [GameClaimer] 🥊 OneMoreStep Challenge
+2022-05-20 05:36:55.854 | SUCCESS  | services.bricklayer.core:purchase_status:730 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/5/26 11:00 - game=『《无主之地3》』
+2022-05-20 05:36:56.011 | DEBUG    | services.bricklayer.core:_activate_payment:941 - [🔖] 资源订单加载完毕 - mode=add
+2022-05-20 05:36:56.012 | DEBUG    | services.bricklayer.game:empty_shopping_payment:201 - [🛵] 判断购物车状态
+2022-05-20 05:36:56.081 | DEBUG    | services.bricklayer.game:empty_shopping_payment:209 - [🛵] 重载身份令牌
+2022-05-20 05:36:59.101 | DEBUG    | services.bricklayer.game:empty_shopping_payment:218 - [🛵] 激活游戏订单
+2022-05-20 05:36:59.250 | DEBUG    | services.bricklayer.core:_activate_payment:941 - [🔖] 资源订单加载完毕 - mode=下单
+2022-05-20 05:37:02.710 | DEBUG    | services.bricklayer.game:empty_shopping_payment:228 - [🛵] 处理游戏订单...
+2022-05-20 05:37:02.738 | DEBUG    | services.bricklayer.core:cart_handle_payment:1086 - [🌀] 切换至内联订单框架
+2022-05-20 05:37:02.739 | DEBUG    | services.bricklayer.core:cart_handle_payment:1092 - [⚔] 激活人机挑战...
+2022-05-20 05:37:08.271 | DEBUG    | services.bricklayer.core:cart_handle_payment:1103 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-05-20 05:37:09.351 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取挑战标签 - label=「motorbike」
+2022-05-20 05:37:09.689 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 开始挑战
+2022-05-20 05:37:10.687 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 提交挑战 yolov5n6(onnx)_model: 0.45s
+2022-05-20 05:37:12.712 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-05-20 05:37:13.777 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取挑战标签 - label=「motorbike」
+2022-05-20 05:37:14.281 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 开始挑战
+2022-05-20 05:37:15.155 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 提交挑战 yolov5n6(onnx)_model: 0.45s
+2022-05-20 05:37:20.191 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-05-20 05:37:20.194 | DEBUG    | services.bricklayer.core:cart_handle_payment:1107 - [🌀] 弹出内联订单框架...
+2022-05-20 05:37:27.005 | DEBUG    | services.bricklayer.game:empty_shopping_payment:201 - [🛵] 判断购物车状态
+2022-05-20 05:37:27.007 | INFO     | services.deploy:promotions_splitter:362 - >> GET [GameClaimer] 🛒 领取成功 - game=『Borderlands 3』
