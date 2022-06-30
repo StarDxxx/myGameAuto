@@ -1,38 +1,139 @@
-2022-05-20 05:36:10.451 | DEBUG    | services.deploy:job_loop_claim:184 - SynergyTunnel Pattern: True
-2022-05-20 05:36:10.452 | DEBUG    | services.utils.toolbox.toolbox:get_challenge_ctx:334 - >> ACTIVATE [__Context__] 🎮 激活挑战者上下文
-2022-05-20 05:36:21.488 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1325 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
-2022-05-20 05:36:25.597 | DEBUG    | services.bricklayer.core:login:1029 - >> MATCH [CookieManager] 实体信息注入完毕
-2022-05-20 05:36:25.897 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:107 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
-2022-05-20 05:36:28.869 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取挑战标签 - label=「boat」
-2022-05-20 05:36:29.305 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 开始挑战
-2022-05-20 05:36:30.344 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 提交挑战 yolov5n6(onnx)_model: 0.74s
-2022-05-20 05:36:32.365 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
-2022-05-20 05:36:33.407 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取挑战标签 - label=「boat」
-2022-05-20 05:36:33.763 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 开始挑战
-2022-05-20 05:36:34.636 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 提交挑战 yolov5n6(onnx)_model: 0.45s
-2022-05-20 05:36:41.005 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
-2022-05-20 05:36:41.340 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1264 - >> LOAD [CookieManager] Load context cookie.
-2022-05-20 05:36:41.440 | DEBUG    | services.deploy:promotions_splitter:374 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Borderlands 3』
-2022-05-20 05:36:41.521 | DEBUG    | services.bricklayer.game:cart_balancing:171 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
-2022-05-20 05:36:45.280 | DEBUG    | services.bricklayer.game:cart_balancing:185 - >> COMBAT [GameClaimer] 🥊 OneMoreStep Challenge
-2022-05-20 05:36:55.854 | SUCCESS  | services.bricklayer.core:purchase_status:730 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/5/26 11:00 - game=『《无主之地3》』
-2022-05-20 05:36:56.011 | DEBUG    | services.bricklayer.core:_activate_payment:941 - [🔖] 资源订单加载完毕 - mode=add
-2022-05-20 05:36:56.012 | DEBUG    | services.bricklayer.game:empty_shopping_payment:201 - [🛵] 判断购物车状态
-2022-05-20 05:36:56.081 | DEBUG    | services.bricklayer.game:empty_shopping_payment:209 - [🛵] 重载身份令牌
-2022-05-20 05:36:59.101 | DEBUG    | services.bricklayer.game:empty_shopping_payment:218 - [🛵] 激活游戏订单
-2022-05-20 05:36:59.250 | DEBUG    | services.bricklayer.core:_activate_payment:941 - [🔖] 资源订单加载完毕 - mode=下单
-2022-05-20 05:37:02.710 | DEBUG    | services.bricklayer.game:empty_shopping_payment:228 - [🛵] 处理游戏订单...
-2022-05-20 05:37:02.738 | DEBUG    | services.bricklayer.core:cart_handle_payment:1086 - [🌀] 切换至内联订单框架
-2022-05-20 05:37:02.739 | DEBUG    | services.bricklayer.core:cart_handle_payment:1092 - [⚔] 激活人机挑战...
-2022-05-20 05:37:08.271 | DEBUG    | services.bricklayer.core:cart_handle_payment:1103 - [⚔] 捕获隐藏在订单中的人机挑战...
-2022-05-20 05:37:09.351 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取挑战标签 - label=「motorbike」
-2022-05-20 05:37:09.689 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 开始挑战
-2022-05-20 05:37:10.687 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 提交挑战 yolov5n6(onnx)_model: 0.45s
-2022-05-20 05:37:12.712 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
-2022-05-20 05:37:13.777 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取挑战标签 - label=「motorbike」
-2022-05-20 05:37:14.281 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 开始挑战
-2022-05-20 05:37:15.155 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 提交挑战 yolov5n6(onnx)_model: 0.45s
-2022-05-20 05:37:20.191 | DEBUG    | services.utils.armor.anti_hcaptcha.core:log:80 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
-2022-05-20 05:37:20.194 | DEBUG    | services.bricklayer.core:cart_handle_payment:1107 - [🌀] 弹出内联订单框架...
-2022-05-20 05:37:27.005 | DEBUG    | services.bricklayer.game:empty_shopping_payment:201 - [🛵] 判断购物车状态
-2022-05-20 05:37:27.007 | INFO     | services.deploy:promotions_splitter:362 - >> GET [GameClaimer] 🛒 领取成功 - game=『Borderlands 3』
+2022-07-01 05:36:03.669 | DEBUG    | apis.scaffold.install:run:61 - 正在下载系统依赖
+2022-07-01 05:36:03.669 | DEBUG    | apis.scaffold.install:_download_driver:32 - Downloading ChromeDriver...
+2022-07-01 05:36:04.076 | DEBUG    | apis.scaffold.install:_download_model:23 - Downloading YOLOv5(ONNX) object detection model...
+2022-07-01 05:36:04.804 | DEBUG    | apis.scaffold.install:_download_rainbow:54 - Downloading Reinforcement of Memory | Rainbow Table...
+2022-07-01 05:36:04.978 | SUCCESS  | apis.scaffold.install:run:65 - 系统依赖下载完毕
+2022-07-01 05:36:06.250 | DEBUG    | services.deploy:job_loop_claim:187 - SynergyTunnel Pattern: True
+2022-07-01 05:36:06.260 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1279 - >> LOAD [CookieManager] Load context cookie.
+2022-07-01 05:36:06.408 | DEBUG    | services.utils.toolbox.toolbox:get_challenge_ctx:333 - >> ACTIVATE [__Context__] 🎮 激活挑战者上下文
+2022-07-01 05:36:08.959 | DEBUG    | services.utils.toolbox.toolbox:get_challenge_ctx:347 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36
+2022-07-01 05:36:08.960 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1340 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-07-01 05:36:13.560 | ERROR    | services.deploy:__enter__:255 - Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=103.0.5060.53)
+Stacktrace:
+#0 0x555a93772b13 <unknown>
+#1 0x555a9357951f <unknown>
+#2 0x555a9356693d <unknown>
+#3 0x555a93566355 <unknown>
+#4 0x555a93565815 <unknown>
+#5 0x555a935644df <unknown>
+#6 0x555a93564a9c <unknown>
+#7 0x555a93571b1f <unknown>
+#8 0x555a93572682 <unknown>
+#9 0x555a93580c2d <unknown>
+#10 0x555a93584b4a <unknown>
+#11 0x555a93564ec6 <unknown>
+#12 0x555a935807d1 <unknown>
+#13 0x555a935e1a73 <unknown>
+#14 0x555a935ce7a3 <unknown>
+#15 0x555a935a40ea <unknown>
+#16 0x555a935a5225 <unknown>
+#17 0x555a937ba2dd <unknown>
+#18 0x555a937be2c7 <unknown>
+#19 0x555a937a422e <unknown>
+#20 0x555a937bf0a8 <unknown>
+#21 0x555a93798bc0 <unknown>
+#22 0x555a937db6c8 <unknown>
+#23 0x555a937db848 <unknown>
+#24 0x555a937f5c0d <unknown>
+#25 0x7f943831a609 <unknown>
+
+Traceback (most recent call last):
+  File "/home/runner/work/myGameAuto/myGameAuto/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/runner/work/myGameAuto/myGameAuto/epic/src/services/scaffold.py", line 154, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/myGameAuto/myGameAuto/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore, tun)
+  File "/home/runner/work/myGameAuto/myGameAuto/epic/src/services/deploy.py", line 188, in job_loop_claim
+    with GameClaimerInstance(
+  File "/home/runner/work/myGameAuto/myGameAuto/epic/src/services/deploy.py", line 428, in __enter__
+    super().__enter__()
+> File "/home/runner/work/myGameAuto/myGameAuto/epic/src/services/deploy.py", line 247, in __enter__
+    if _manager.refresh_ctx_cookies(keep_live=True, silence=self.silence):
+  File "/home/runner/work/myGameAuto/myGameAuto/epic/src/services/bricklayer/core.py", line 1357, in refresh_ctx_cookies
+    self.login(self.email, self.password, ctx=ctx, auth_url=auth_url)
+  File "/home/runner/work/myGameAuto/myGameAuto/epic/src/services/bricklayer/core.py", line 1032, in login
+    WebDriverWait(ctx, 10, ignored_exceptions=ElementNotVisibleException).until(
+  File "/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 81, in until
+    value = method(self._driver)
+  File "/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/selenium/webdriver/support/expected_conditions.py", line 64, in _predicate
+    return driver.find_element(*locator)
+  File "/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 857, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 435, in execute
+    self.error_handler.check_response(response)
+  File "/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=103.0.5060.53)
+Stacktrace:
+#0 0x555a93772b13 <unknown>
+#1 0x555a9357951f <unknown>
+#2 0x555a9356693d <unknown>
+#3 0x555a93566355 <unknown>
+#4 0x555a93565815 <unknown>
+#5 0x555a935644df <unknown>
+#6 0x555a93564a9c <unknown>
+#7 0x555a93571b1f <unknown>
+#8 0x555a93572682 <unknown>
+#9 0x555a93580c2d <unknown>
+#10 0x555a93584b4a <unknown>
+#11 0x555a93564ec6 <unknown>
+#12 0x555a935807d1 <unknown>
+#13 0x555a935e1a73 <unknown>
+#14 0x555a935ce7a3 <unknown>
+#15 0x555a935a40ea <unknown>
+#16 0x555a935a5225 <unknown>
+#17 0x555a937ba2dd <unknown>
+#18 0x555a937be2c7 <unknown>
+#19 0x555a937a422e <unknown>
+#20 0x555a937bf0a8 <unknown>
+#21 0x555a93798bc0 <unknown>
+#22 0x555a937db6c8 <unknown>
+#23 0x555a937db848 <unknown>
+#24 0x555a937f5c0d <unknown>
+#25 0x7f943831a609 <unknown>
+
+2022-07-01 05:36:13.566 | ERROR    | services.deploy:_bad_omen:315 - >> Notify [GameClaimer] 推送运行日志 - active_pusher=[] err=Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=103.0.5060.53)
+Stacktrace:
+#0 0x555a93772b13 <unknown>
+#1 0x555a9357951f <unknown>
+#2 0x555a9356693d <unknown>
+#3 0x555a93566355 <unknown>
+#4 0x555a93565815 <unknown>
+#5 0x555a935644df <unknown>
+#6 0x555a93564a9c <unknown>
+#7 0x555a93571b1f <unknown>
+#8 0x555a93572682 <unknown>
+#9 0x555a93580c2d <unknown>
+#10 0x555a93584b4a <unknown>
+#11 0x555a93564ec6 <unknown>
+#12 0x555a935807d1 <unknown>
+#13 0x555a935e1a73 <unknown>
+#14 0x555a935ce7a3 <unknown>
+#15 0x555a935a40ea <unknown>
+#16 0x555a935a5225 <unknown>
+#17 0x555a937ba2dd <unknown>
+#18 0x555a937be2c7 <unknown>
+#19 0x555a937a422e <unknown>
+#20 0x555a937bf0a8 <unknown>
+#21 0x555a93798bc0 <unknown>
+#22 0x555a937db6c8 <unknown>
+#23 0x555a937db848 <unknown>
+#24 0x555a937f5c0d <unknown>
+#25 0x7f943831a609 <unknown>
+
