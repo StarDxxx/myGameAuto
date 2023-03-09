@@ -1,12 +1,8 @@
-2023-03-03 05:30:24.243 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading objects.yaml from https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml
-2023-03-03 05:30:24.325 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
-2023-03-03 05:30:24.406 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
-2023-03-03 05:30:24.762 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
-2023-03-03 05:30:24.844 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
-2023-03-03 05:30:26.194 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
-2023-03-03 05:30:26.275 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:157 - 0
-2023-03-03 05:30:26.286 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
-2023-03-03 05:30:26.875 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (1844), thread 'MainThread' (140357145869376):
+2023-03-10 05:30:26.142 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading objects.yaml from https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml
+2023-03-10 05:30:26.287 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:148 - Pulling AssetsObject from https://api.github.com/repos/QIN2DIM/hcaptcha-challenger/releases
+2023-03-10 05:30:26.804 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading yolov6n.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/yolov6n.onnx
+2023-03-10 05:30:29.337 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-03-10 05:30:29.949 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (1843), thread 'MainThread' (140467279854656):
 Traceback (most recent call last):
   File "/home/runner/work/myGameAuto/myGameAuto/epic/src/main.py", line 11, in <module>
     Fire(Scaffold)
@@ -47,7 +43,7 @@ playwright._impl._api_types.Error:
 ╚════════════════════════════════════════════════════════════════════════════════════════════════╝
 =========================== logs ===========================
 <launching> /home/runner/.cache/ms-playwright/chromium-1028/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-sync --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --no-sandbox --user-data-dir=/home/runner/work/myGameAuto/myGameAuto/epic/src/database/users/41c90b5dd712d2c9ad2acec6e4ab82d7868b7e2120b8cfda0d90e8eabd863912 --remote-debugging-pipe about:blank
-<launched> pid=1969
-[pid=1969][err] [1969:1969:0303/053026.852217:ERROR:ozone_platform_x11.cc(239)] Missing X server or $DISPLAY
-[pid=1969][err] [1969:1969:0303/053026.852282:ERROR:env.cc(255)] The platform failed to initialize.  Exiting.
+<launched> pid=1967
+[pid=1967][err] [1967:1967:0310/053029.929657:ERROR:ozone_platform_x11.cc(239)] Missing X server or $DISPLAY
+[pid=1967][err] [1967:1967:0310/053029.929718:ERROR:env.cc(255)] The platform failed to initialize.  Exiting.
 ============================================================
